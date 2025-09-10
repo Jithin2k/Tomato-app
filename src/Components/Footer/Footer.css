@@ -52,3 +52,10 @@ margin-right: 40px;
     background: grey;
     border: none;
 }
+
+@media (max-width:750px){
+    .footer-content{
+    display: flex;;
+    flex-direction: column;
+    }
+}
