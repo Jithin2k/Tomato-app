@@ -64,7 +64,7 @@ const Navbar = ({ setShowLogin }) => {
         ) : (
           <div className="navbar-profile">
             <img src={assets.profile_icon} alt="" />
-            <il className="navbar-profile-dropdown">
+            <ul className="navbar-profile-dropdown">
               <li>
                 <img src={assets.bag_icon} alt="" />
                 <p>Orders</p>
@@ -74,7 +74,7 @@ const Navbar = ({ setShowLogin }) => {
                 <img src={assets.logout_icon} alt="" />
                 <p>Logout</p>
               </li>
-            </il>
+            </ul>
           </div>
         )}
       </div>
